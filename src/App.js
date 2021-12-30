@@ -74,7 +74,6 @@ function App() {
   return (
     <React.Fragment>
       <section>{!errorForm && <AddMovie onAddMovie={addMovieHandler} />}</section>
-      {console.log("%c  eROOR", "background: green;padding: 2px", errorForm)}
       <section>{errorForm && errorForm}</section>
       <section>
         <button onClick={fetchMoviesHandler}>Fetch Movies</button>

@@ -29,7 +29,6 @@ function App() {
           openingText: data[key].openingText,
           releaseDate: data[key].releaseDate,
         });
-        console.log("%cloadMovies", "background: green;padding: 2px", loadMovies);
       }
       setMovies(loadMovies);
     } catch (error) {
